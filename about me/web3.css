@@ -1,0 +1,27 @@
+header h1 {
+    font-size: 28px;
+}
+#job {
+    font-size: 18px;
+}
+.summary {
+    font-size: 16px;
+}
+h3{
+    font-size: 20px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#job {
+    font-weight: bold;
+}
+h1 {
+    text-transform: uppercase;
+}
+h3 p {
+    line-height: 20px;
+}
+header,footer{
+    text-align: center;
+}
