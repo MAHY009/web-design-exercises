@@ -1,27 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f2e9;
+}
+
 header h1 {
     font-size: 28px;
+    text-transform: uppercase;
 }
+
 #job {
     font-size: 18px;
+    font-weight: bold;
+    color: black;
 }
+
 .summary {
     font-size: 16px;
 }
+
 h3{
     font-size: 20px;
+    border-bottom: 1px solid black;
+    padding: 0 0 2px 0;
 }
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
-#job {
-    font-weight: bold;
-}
-h1 {
-    text-transform: uppercase;
-}
+
 h3 p {
     line-height: 20px;
 }
+
 header,footer{
     text-align: center;
+    background-color: #570615;
+}
+
+section,footer{
+    padding: 2px 10px ;
+}
+
+ul{
+    margin: 0;
+}
+
+header{
+    padding: 2px 0;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+a,p{
+    color: black;
+}
+
+img{
+    align-items: center;
 }
